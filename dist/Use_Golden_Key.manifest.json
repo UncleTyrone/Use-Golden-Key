@@ -1,0 +1,12 @@
+{
+  "archive": "dist/Use_Golden_Key.sdkmod",
+  "member_count": 4,
+  "members": [
+    "Use_Golden_Key/",
+    "Use_Golden_Key/__init__.py",
+    "Use_Golden_Key/pyproject.toml",
+    "Use_Golden_Key/README.md"
+  ],
+  "schema": 1,
+  "sha256": "28fe4facd0d9fb1369c6864d0aed1e6fb6f72f80e709e10a93da451df62dc1ad"
+}

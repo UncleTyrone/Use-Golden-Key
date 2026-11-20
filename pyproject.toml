@@ -1,0 +1,17 @@
+[project]
+name = "use-golden-key"
+version = "0.1.0"
+description = "Packaging for Use Golden Key on Borderlands 2 and The Pre-Sequel"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
