@@ -1,0 +1,14 @@
+[project]
+name = "Use_Golden_Key"
+version = "1.0.0"
+description = "The golden chest spends a key as soon as you use it. Both Borderlands 2 and The Pre-Sequel."
+requires-python = ">=3.10"
+authors = [{ name = "UncleTyrone" }]
+
+[project.entry-points."sdkmods"]
+Use_Golden_Key = "Use_Golden_Key:build_mod"
+
+[tool.sdkmod]
+supported_game = "BL2,TPS"
+coop = "ClientSide"
+package_root = "Use_Golden_Key"
